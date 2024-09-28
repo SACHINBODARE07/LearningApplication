@@ -110,14 +110,18 @@ function checkFileType(file, cb) {
 }
 
 exports.verifyDocuments = (req, res) => {
-    upload(req, res, (err) => {
-        if (err) {
-            return res.status(400).json({ msg: err });
-        }
-        // Handle file verification
-        res.send('Files uploaded successfully');
-    });
+    // upload(req, res, (err) => {
+    //     if (err) {
+    //         return res.status(400).json({ msg: err });
+    //     }
+    //     // Handle file verification
+    //     res.send('Files uploaded successfully');
+    // });
+
+    res.status(200).json({ message: 'File upload temporarily disabled. Proceeding without upload.' });
 };
+
+
 
 exports.updateProfile = async (req, res) => {
   try {
