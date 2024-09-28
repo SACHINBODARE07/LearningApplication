@@ -17,6 +17,9 @@ const productRoutes = require('./routes/productRoutes'); // Adjusted path
 
 const app = express();
 
+// Enable trust proxy
+app.set('trust proxy', true); // Trust the first proxy
+
 // Use built-in middleware for parsing JSON
 app.use(express.json());
 app.use(rateLimit({
