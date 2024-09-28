@@ -47,7 +47,7 @@ mongoose.connect(dbURI)
   });
 
 // Example signup route
-const userController = require('../controllers/userController'); // Adjusted path
+const userController = require('./controllers/userController'); // Adjusted path
 app.post('/signup', userController.signup);
 
 // Export the app as a Vercel serverless function
