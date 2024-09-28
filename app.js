@@ -10,10 +10,10 @@ const crypto = require('crypto');
 const serverless = require('serverless-http'); // Import serverless-http
 
 // Import routes
-const userRoutes = require('../routes/userRoutes'); // Adjusted path
-const levelRoutes = require('../routes/levelRoutes'); // Adjusted path
-const videoRoutes = require('../routes/videoRoutes'); // Adjusted path
-const productRoutes = require('../routes/productRoutes'); // Adjusted path
+const userRoutes = require('./routes/userRoutes'); // Adjusted path
+const levelRoutes = require('./routes/levelRoutes'); // Adjusted path
+const videoRoutes = require('./routes/videoRoutes'); // Adjusted path
+const productRoutes = require('./routes/productRoutes'); // Adjusted path
 
 const app = express();
 
