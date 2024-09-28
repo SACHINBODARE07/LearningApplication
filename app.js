@@ -59,7 +59,10 @@ app.use(express.json());
 //     return res.status(401).json({ message: 'Unauthorized' });
 //   }
 // };
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6c04da (Initial commit)
 // Rate limiting
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
@@ -122,7 +125,11 @@ mongoose.connect(dbURI, {
 app.post('/signup', userController.signup);
 
 
+<<<<<<< HEAD
 const PORT = process.env.PORT || 5000;
+=======
+const PORT = process.env.PORT || 5700;
+>>>>>>> c6c04da (Initial commit)
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });

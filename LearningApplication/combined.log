@@ -1,0 +1,123 @@
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:01:44 +0000] \"POST /api/users/signup HTTP/1.1\" 201 42 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::1 - - [26/Aug/2024:12:45:52 +0000] \"POST /api/signup HTTP/1.1\" 404 150 \"-\" \"PostmanRuntime/7.39.0\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:45:52 +0000] \"GET /api/users/signup HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:45:52 +0000] \"GET /api/users/signup HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:45:52 +0000] \"POST /api/users/signup HTTP/1.1\" - - \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:45:52 +0000] \"POST /api/users/signin HTTP/1.1\" - - \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:45:52 +0000] \"POST /api/users/signin HTTP/1.1\" - - \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:45:52 +0000] \"POST /api/users/signin HTTP/1.1\" - - \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:45:52 +0000] \"POST /api/users/signup HTTP/1.1\" 500 153 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:47:17 +0000] \"POST /api/users/signup HTTP/1.1\" 201 42 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:47:46 +0000] \"POST /api/users/signin HTTP/1.1\" 200 195 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:50:00 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:51:25 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:00 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:01 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:21 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:22 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:22 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:31 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:32 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:33 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:33 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:52:33 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:12:57:44 +0000] \"POST /api/users/signup HTTP/1.1\" 201 42 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:00:06 +0000] \"POST /api/users/signin HTTP/1.1\" 200 195 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:04:30 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 400 29 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:05:30 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 400 29 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:05:31 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 400 29 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:05:31 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 400 29 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:05:31 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 400 29 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:05:31 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 400 29 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:05:32 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 400 29 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:05:32 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 400 29 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:06:50 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 400 132 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:07:19 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"got (https://github.com/sindresorhus/got)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:07:21 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"got (https://github.com/sindresorhus/got)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:07:22 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"got (https://github.com/sindresorhus/got)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:07:23 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"got (https://github.com/sindresorhus/got)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:07:24 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"got (https://github.com/sindresorhus/got)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:08:59 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"got (https://github.com/sindresorhus/got)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:09:00 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"got (https://github.com/sindresorhus/got)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:09:52 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:09:53 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:09:54 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:10:08 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:10:27 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:10:27 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Aug/2024:13:11:23 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [28/Aug/2024:17:06:50 +0000] \"POST /api/users/signup HTTP/1.1\" 400 37 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [28/Aug/2024:18:33:51 +0000] \"POST /api/users/signup HTTP/1.1\" 201 42 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [14/Sep/2024:17:23:26 +0000] \"POST /api/users/signup HTTP/1.1\" 500 152 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::1 - - [19/Sep/2024:09:56:45 +0000] \"GET /api/users/updateProfile HTTP/1.1\" 404 162 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/users/signup HTTP/1.1\" 500 152 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/users/signin HTTP/1.1\" 200 195 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"got (https://github.com/sindresorhus/got)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"GET /api/products/products HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/products/buyProduct HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/videos/addVideo HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"GET /api/videos/videos HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/levels/updateLevel HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"GET /api/levels/levels HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/users/updateEmail HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/users/sendOTP HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/users/verifyOTP HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:15 +0000] \"POST /api/users/updatePassword HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:16 +0000] \"POST /api/users/updateAccountInfo HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:16 +0000] \"POST /api/levels/updateLevel HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/signup HTTP/1.1\" 500 152 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/signin HTTP/1.1\" 200 195 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"got (https://github.com/sindresorhus/got)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"GET /api/products/products HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/products/buyProduct HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/videos/addVideo HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"GET /api/videos/videos HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/levels/updateLevel HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"GET /api/levels/levels HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/updateEmail HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/sendOTP HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/verifyOTP HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/updatePassword HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/users/updateAccountInfo HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Sep/2024:11:13:43 +0000] \"POST /api/levels/updateLevel HTTP/1.1\" 401 27 \"-\" \"Thunder Client (https://www.thunderclient.com)\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:40:59 +0000] \"POST /api/users/signup HTTP/1.1\" 500 152 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:41:09 +0000] \"POST /api/users/signup HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:41:44 +0000] \"POST /api/users/signin HTTP/1.1\" 200 195 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:42:06 +0000] \"POST /api/users/verifyDocuments HTTP/1.1\" 200 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:42:56 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:44:26 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:46:18 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:47:00 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:47:01 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:48:11 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:52:15 +0000] \"POST /api/users/signin HTTP/1.1\" 200 195 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:53:02 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:08:59:04 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:03:16 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:21:07 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:21:09 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:21:34 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:21:54 +0000] \"POST /api/users/signin HTTP/1.1\" 200 195 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:22:41 +0000] \"POST /api/users/updateProfile HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:24:12 +0000] \"POST /api/users/updateEmail HTTP/1.1\" 200 40 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:24:48 +0000] \"POST /api/users/sendOTP HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:25:07 +0000] \"POST /api/users/sendOTP HTTP/1.1\" 200 35 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:25:58 +0000] \"POST /api/users/verifyOTP HTTP/1.1\" 400 25 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:26:38 +0000] \"POST /api/users/verifyOTP HTTP/1.1\" 400 25 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:30:16 +0000] \"POST /api/users/updatePassword HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:31:01 +0000] \"POST /api/users/updateAccountInfo HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:31:14 +0000] \"POST /api/users/updateAccountInfo HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:31:32 +0000] \"POST /api/levels/updateLevel HTTP/1.1\" 200 40 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:31:58 +0000] \"POST /api/levels/updateLevel HTTP/1.1\" 200 40 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:32:22 +0000] \"GET /api/videos/videos HTTP/1.1\" 200 13 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:32:40 +0000] \"POST /api/videos/addVideo HTTP/1.1\" 200 38 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:32:57 +0000] \"POST /api/products/buyProduct HTTP/1.1\" 500 85 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:34:03 +0000] \"GET /api/products/products HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:09:34:14 +0000] \"GET /api/products/products HTTP/1.1\" 200 384 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [23/Sep/2024:11:02:37 +0000] \"POST /api/users/signup HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [24/Sep/2024:13:10:08 +0000] \"POST /api/users/signup HTTP/1.1\" 500 153 \"-\" \"PostmanRuntime/7.42.0\""}
+{"level":"info","message":"::1 - - [24/Sep/2024:13:10:31 +0000] \"POST /api/users/signup HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\""}
