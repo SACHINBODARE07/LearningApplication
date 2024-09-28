@@ -5,7 +5,11 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
      "start": "node app.js"
+=======
+    "start": "node app.js"
+>>>>>>> c6c04da (Initial commit)
   },
   "keywords": [],
   "author": "",
@@ -22,6 +26,11 @@
     "mongoose": "^8.4.1",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
+<<<<<<< HEAD
+=======
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.1.7",
+>>>>>>> c6c04da (Initial commit)
     "winston": "^3.13.0"
   },
   "devDependencies": {
