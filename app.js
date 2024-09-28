@@ -34,9 +34,10 @@ app.use('/api/videos', videoRoutes);
 app.use('/api/products', productRoutes);
 
 // MongoDB connection string
-const dbURI = process.env.MONGODB_URI; // Use an environment variable for your connection string
+const dbURI = 'mongodb+srv://LearningApp:251536@cluster0.xgy0bwd.mongodb.net/learningApp'; // Replace with your actual MongoDB connection string
 
 // Connect to MongoDB
+console.log('MongoDB URI:', dbURI); // Log the URI for debugging
 mongoose.connect(dbURI)
   .then(() => {
     console.log('MongoDB connected');
