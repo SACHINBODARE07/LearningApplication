@@ -76,15 +76,15 @@ exports.verifyDocuments = (req, res) => {
 };
 
 // Set up storage engine
-const storage = multer.diskStorage({
-    destination: './uploads/',
-    filename: (req, file, cb) => {
-        cb(null, `${file.fieldname}-${Date.now()}${path.extname(file.originalname)}`);
-    }
-});
+// const storage = multer.diskStorage({
+//     destination: './uploads/',
+//     filename: (req, file, cb) => {
+//         cb(null, `${file.fieldname}-${Date.now()}${path.extname(file.originalname)}`);
+//     }
+// });
 
 const upload = multer({
-    storage: storage,
+  //  storage: storage,
     limits: { fileSize: 1000000 },
     fileFilter: (req, file, cb) => {
         checkFileType(file, cb);
