@@ -22,10 +22,25 @@ app.set('trust proxy', true); // Trust the first proxy
 
 // Use built-in middleware for parsing JSON
 app.use(express.json());
-app.use(rateLimit({
+
+const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100, // limit each IP to 100 requests per windowMs
-}));
+  keyGenerator: (req, res) => {
+    // Use the IP from the request object
+    return req.ip; // Use the IP address safely
+  }
+});
+
+app.use(limiter);
+
+
+// app.use(rateLimit({
+//   windowMs: 15 * 60 * 1000, // 15 minutes
+//   max: 100, // limit each IP to 100 requests per windowMs
+// }));
+
+
 app.use(helmet());
 app.use(cors());
 app.use(morgan('combined'));
