@@ -1,7 +1,7 @@
 const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const multer = require('multer');
+//const multer = require('multer');  
 // Using memory storage 
 const storage = multer.memoryStorage();
 //
