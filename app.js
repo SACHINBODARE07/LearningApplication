@@ -7,21 +7,13 @@ const winston = require('winston');
 const morgan = require('morgan');
 const cors = require('cors');
 const crypto = require('crypto');
+const serverless = require('serverless-http'); // Import serverless-http
 
 // Import routes
-const userRoutes = require('./routes/userRoutes');
-const levelRoutes = require('./routes/levelRoutes');
-const videoRoutes = require('./routes/videoRoutes');
-const productRoutes = require('./routes/productRoutes');
-
-// Generate a random JWT secret
-const generateJwtSecret = () => {
-  return crypto.randomBytes(32).toString('hex'); // 32 bytes = 256 bits
-};
-
-// Generate and log the JWT secret
-const jwtSecret = generateJwtSecret();
-console.log('JWT Secret:', jwtSecret);
+const userRoutes = require('../routes/userRoutes'); // Adjusted path
+const levelRoutes = require('../routes/levelRoutes'); // Adjusted path
+const videoRoutes = require('../routes/videoRoutes'); // Adjusted path
+const productRoutes = require('../routes/productRoutes'); // Adjusted path
 
 const app = express();
 
@@ -42,31 +34,20 @@ app.use('/api/videos', videoRoutes);
 app.use('/api/products', productRoutes);
 
 // MongoDB connection string
-const dbURI = 'mongodb+srv://LearningApp:251536@cluster0.xgy0bwd.mongodb.net/learningApp'; // Replace with your actual MongoDB connection string
+const dbURI = process.env.MONGODB_URI; // Use an environment variable for your connection string
 
 // Connect to MongoDB
 mongoose.connect(dbURI)
-.then(() => {
-  console.log('MongoDB connected');
-})
-.catch((error) => {
-  console.error('MongoDB connection error:', error);
-});
+  .then(() => {
+    console.log('MongoDB connected');
+  })
+  .catch((error) => {
+    console.error('MongoDB connection error:', error);
+  });
 
 // Example signup route
-const userController = require('./controllers/userController');
+const userController = require('../controllers/userController'); // Adjusted path
 app.post('/signup', userController.signup);
 
-const PORT = process.env.PORT || 5000;
-
-// Export the server for serverless deployment
-module.exports.handler = async (event, context) => {
-  return app(event, context);
-};
-
-// If not serverless, run the server locally
-if (process.env.NODE_ENV !== 'serverless') {
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-  });
-}
+// Export the app as a Vercel serverless function
+module.exports = serverless(app);
