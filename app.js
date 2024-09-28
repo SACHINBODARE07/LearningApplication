@@ -45,6 +45,9 @@ app.use(helmet());
 app.use(cors());
 app.use(morgan('combined'));
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the Learning App API!');
+});
 // Use routes
 app.use('/api/users', userRoutes);
 app.use('/api/levels', levelRoutes);
